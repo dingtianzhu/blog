@@ -1,0 +1,114 @@
+/*
+************************always***************************
+*/
+*{
+    font-size:14px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;||微软雅黑;
+}
+
+body{
+	/* border:1px solid #000; */
+}
+/*
+************************header***************************
+*/
+
+
+
+#app-header{
+	width: 100%;
+	height: 53px;
+}
+#app-header .form-inline img{
+	width: 35px;
+	height: 35px;
+	border-radius: 35px;
+}
+#bell{
+	font-size: 24px;
+	margin: auto 24px;
+}
+/*
+************************info-header***************************
+*/
+#info-header{
+	width: 100%;
+	height: 456px;
+	background-image: url("../../image/iceland.jpg");
+	background-size:100% 100% ;
+}
+#info-header .info-header-center{
+	margin: auto;
+	width: 300px;
+	padding-top: 100px;
+}
+#info-header .info-header-center .img img{
+	width: 120px;
+	height: 120px;
+	border-radius: 120px;
+}
+#info-header .info-header-center .text{
+	padding-top: 28px;
+}
+#info-header .info-header-center .text .h2{
+	display: block;
+}
+#info-header .info-header-center .text .p{
+	font-size: 16px;
+	margin: 3px;
+	display: block;
+}
+/*
+************************footer***************************
+*/
+#info-image .image{
+	margin: 10px 5px;
+	width: 25%;
+}
+/*
+************************footer***************************
+*/
+#app-footer{
+	height: 160px;
+	background: #555;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+#app-footer .row{
+	line-height: 24px;
+}
+#app-footer a{
+	position: relative;
+}
+#app-footer a img{
+	width: 130px;
+	position: absolute;
+	display: none;
+}
+#app-footer a:hover img{
+	display: block;
+	margin-left: -65px;
+	z-index: 200;
+	left: 50%;
+}
+.v_info{
+	margin-top: 20px;
+}
+/*
+************************小屏幕试配***************************
+*/
+
+
+@media screen and (max-width: 768px){
+	.hidden-xs{
+		display: none;
+	}
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.hidden-sm{
+		display: none;
+	}
+}
